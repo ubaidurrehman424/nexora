@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Forest Night",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+      {
+        "slug": "primary",
+        "color": "#22C55E",
+        "name": "Primary"
+      },
+      {
+        "slug": "heading",
+        "color": "#2E2E2E",
+        "name": "Heading"
+      },
+      {
+        "slug": "border-color",
+        "color": "#2F3A33",
+        "name": "Border Color"
+      },
+      {
+        "slug": "background",
+        "color": "#0F172A",
+        "name": "Background"
+      },
+      {
+        "slug": "body-text",
+        "color": "#E5E7EB",
+        "name": "Body Text"
+      },
+      {
+        "slug": "tertiary-bg-color",
+        "color": "#1E293B",
+        "name": "Tertiary Bg Color"
+      },
+      {
+        "slug": "foreground",
+        "color": "#000000",
+        "name": "Foreground"
+      }
+    ]
+    }
+  }
+}

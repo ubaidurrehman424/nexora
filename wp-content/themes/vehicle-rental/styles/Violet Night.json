@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Violet Night",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+      {
+        "slug": "primary",
+        "color": "#8B5CF6",
+        "name": "Primary"
+      },
+      {
+        "slug": "heading",
+        "color": "#2E2E2E",
+        "name": "Heading"
+      },
+      {
+        "slug": "border-color",
+        "color": "#37304A",
+        "name": "Border Color"
+      },
+      {
+        "slug": "background",
+        "color": "#14111F",
+        "name": "Background"
+      },
+      {
+        "slug": "body-text",
+        "color": "#EAEAEA",
+        "name": "Body Text"
+      },
+      {
+        "slug": "tertiary-bg-color",
+        "color": "#211C33",
+        "name": "Tertiary Bg Color"
+      },
+      {
+        "slug": "foreground",
+        "color": "#000000",
+        "name": "Foreground"
+      }
+    ]
+    }
+  }
+}

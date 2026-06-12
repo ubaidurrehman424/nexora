@@ -1,0 +1,218 @@
+/*
+Theme Name: Flex Car Rental
+Author: flextheme
+Author URI: https://www.flextheme.net/
+Theme URI: https://www.flextheme.net/products/flex-car-rental
+Description: Flex Car Rental is a modern website theme designed for vehicle booking and transportation-related services. It includes a clean homepage layout with sections for vehicle listings, pricing details, booking forms, customer information, and service highlights. The theme supports responsive design, allowing pages to adjust across desktops, tablets, and mobile devices. It also includes customizable banners, color settings, typography controls, and menu options for easier site management. The theme provides structured layouts for displaying fleets, rental packages, service areas, and contact details in an organized format. Integrated booking features help manage reservations and inquiry forms efficiently. Flex Car Rental also supports image galleries, testimonial sections, social media integration, and blog layouts for publishing updates or travel-related content. Built with optimized code and lightweight design elements, the theme aims to maintain fast loading performance and smooth navigation. It can be suitable for car rental companies, taxi services, chauffeur services, and limousine services looking to present transportation options and booking information through a professional online platform.
+Version: 1.0.0
+Tested up to: 7.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Template: flex-multi-business
+Text Domain: flex-car-rental
+Tags: blog, portfolio, photography, custom-background, custom-logo, custom-menu, featured-images, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-header, flexible-header, footer-widgets, full-width-template, editor-style, theme-options, threaded-comments, rtl-language-support
+
+flex-car-rental is based on Underscores https://underscores.me/, (C) 2012-2022 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+:root {
+    --primary-theme-color: #C19932 !important;
+    --secondary-theme-color: #222121 !important;
+}
+body{
+	font-family: "Figtree", sans-serif;
+    background-color: var(--secondary-theme-color);
+    color: #ffffff !important;
+}
+.wp-caption {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+.wp-caption-text,
+.gallery-caption {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.bypostauthor {
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Plus Jakarta Sans", sans-serif;
+    color: #ffffff;
+}
+.header-two,.read-more a,.widget_block .wp-block-search .wp-block-search__button, .page-content .search-form .search-submit, .widget_search .search-form .search-submit,#c-scroll:hover,.footer-one,.pagination .page-numbers:hover, .pagination .current{
+	background: var(--primary-theme-color);
+}
+.wp-block-calendar .wp-calendar-table tbody tr td#today, .widget_calendar .calendar_wrap .wp-calendar-table tbody tr td#today, .search-form .search-submit,.widget_block .wp-block-tag-cloud a:hover, .widget_tag_cloud .tagcloud a:hover{
+	background-color:  var(--primary-theme-color) !important;
+}
+.widget_block .wp-block-search .wp-block-search__button,.main-navigation .menu .children .page_item > a::before, .main-navigation .menu .dropdown-menu .menu-item > a::before,.comments-area .form-submit .submit{
+	background:  var(--primary-theme-color) !important;
+}
+.comments-area .form-submit .submit:focus,
+.widget_block .wp-block-search .wp-block-search__button:focus {
+    color: #121212 !important;
+    background-color: #ffffff !important;
+}
+.widget_block .wp-block-search .wp-block-search__input:focus,
+#commentform textarea:focus {
+    border: 2px solid var(--primary-theme-color);
+}
+.read-more a{
+	outline-color:  var(--primary-theme-color);
+}
+.read-more a:focus {
+  border: 1px solid #ffffff;
+}
+.pagination .page-numbers, .pagination .current{
+	border-color:  var(--primary-theme-color);
+}
+.comments-area .comment-form-comment textarea:focus, .comments-area .comment-form-comment textarea:hover,.widget_block .wp-block-tag-cloud a:hover, .widget_tag_cloud .tagcloud a:hover{
+	border-color:  var(--primary-theme-color) !important;
+}
+.read-more a:hover,a:hover, a:active,h5 a:hover, h6 a:hover,.post-meta li a:hover,.post-tags a:hover{
+	color:  var(--primary-theme-color);
+}
+#primary-menu .current-menu-item a {
+    color: #000;
+}
+#primary-menu .menu-item:hover .nav-link,.main-navigation .menu .children .page_item:hover>a, .main-navigation .menu .dropdown-menu .menu-item:hover>a{
+	color:  var(--primary-theme-color) !important;
+}
+.main-navbar{
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+.ac-btn:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, button:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce input[type=submit].button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button:disabled[disabled], .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit:disabled[disabled]:hover, .woocommerce a.button.disabled:hover, .woocommerce a.button:disabled:hover, .woocommerce a.button:disabled[disabled]:hover, .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, .woocommerce input.button.disabled:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, .woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover {
+    background-color:  var(--primary-theme-color) !important;
+    color: #ffffff;
+}
+#page #primary-menu a.nav-link,
+#page #primary-menu li:hover a.nav-link ,
+#page #primary-menu li{
+	color: #fff !important;
+}
+.single-post .comment-list{
+	margin-left: 0px;
+}
+.footer-copyright a:hover{
+	color: #000;
+}
+.post-meta li i ,
+.post-meta li,
+.post-meta li a{
+    color: #ffffff !important;
+}
+.post-meta li::after
+{
+    background: #ffffff !important;
+}
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1360px !important;
+    }
+}
+@media screen and (max-width: 991px){
+    #page #primary-menu a.nav-link, #page #primary-menu li:hover a.nav-link, #page #primary-menu li {
+        color: #000 !important;
+    }
+}
+.blog-item {
+    background-color: #000000;
+}
+.post-tags .c-black {
+    color: #FFFFFF;
+}
+p{
+    color: #fff;
+}
+.page-header h1,
+.site-main .blog-detail h4,
+#comments .comments-title,
+.post-content a,
+.wp-block-latest-comments__comment-link{
+    word-break: break-word;
+}
+.woocommerce-cart .wc-block-cart-item__image img{
+  padding: 10px;
+}
+.woocommerce-cart .wp-block-woocommerce-cart-order-summary-coupon-form-block.wc-block-components-totals-wrapper{
+  padding: 16px 10px !important;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    color: #fff !important;
+}
+.woocommerce nav.woocommerce-pagination ul li a{
+    color: #000 !important;
+}
+.blog-2 .post-meta {
+    background: var(--primary-theme-color);
+}
+.box-image .single-page-img:after{
+    opacity: 0.5;
+}
+.box-image .single-page-img,
+.box-image .single-page-img:after{
+    height: 400px;
+}
+.foot-top{
+    background-color: #010101;
+}
+@media (min-width: 991px) and (max-width: 1199px){
+    .flex-blog-banner-tab .e-n-tab-title{
+        padding: 15px !important;
+    }
+}
+.search .search-form,
+.widget-area .search-form{
+    box-shadow: none;
+}
+.search .search-form input.search-field,
+.widget-area #Search input.search-field{
+    border-radius: 8px;
+    border: 1px solid #000000 !important;
+}  
+.destination-section .slick-arrow {
+    padding: 10px !important;
+}
+.premium-blog-thumbnail-container img{
+    border-radius: 8px !important;
+}
+.premium-blog-meta-data a,
+.premium-blog-meta-data span{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+}
+.premium-blog-meta-data a:hover,
+.premium-blog-meta-data span:hover{
+    color: #fff !important;
+}
+.footer-top .elementor-icon-list-item a:hover span{
+    color: #000 !important;
+}
+.header-main-top .hfe-search-button-wrapper .fa-times{
+    display: flex !important;
+}
+.premium-blog-entry-meta{
+    top: 240px !important;
+    transform: translateX(0%);
+    margin-left: 0px !important;
+}
+.widget-area .search-form {
+    display: flex;
+    flex: auto;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    box-shadow: none;
+    padding: 0;
+}
+.widget-area .search-form input.search-field{
+    border: 1px solid #808080 !important;
+}
+.widget-area .search-form .search-submit {
+    width: 34%;
+}
